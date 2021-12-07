@@ -1,0 +1,205 @@
+html {
+  text-align: center;
+  z-index: 100;
+}
+
+header {
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 5rem;
+  z-index: 1000;
+}
+
+
+span {
+  color: red;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 5em 0;
+  background-color: red;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 98px;
+  width: 90px;
+  position: absolute;
+  top: 7%;
+  left: 20%;
+}
+
+.a {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.b {
+  height: 90px;
+  width: 90px;
+  background-color: white;
+  z-index: 1;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.c {
+  height: 60px;
+  width: 60px;
+  background-color: red;
+  z-index: 2;
+  border-radius: 50%;
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+.d {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  z-index: 3;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.e {
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  z-index: 4;
+  border-radius: 50%;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.f {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  z-index: 5;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+
+main {
+  text-align: center;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  word-spacing: 0.2em;
+}
+
+.mission p {
+  width: 45em;
+}
+
+.products {
+}
+
+.large {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.large img {
+  min-width: 1000px;
+  height: auto;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.caption {
+  text-align: center;
+}
+
+.left {
+  width: 20%;
+  height: 20em;
+}
+
+.right {
+  width: 20%;
+  height: 20em;
+}
+
+.small {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5em 0;
+  min-width: 400px;
+}
+
+.small img {
+  min-width: 200px;
+  height: 18em;
+}
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team figure {
+  min-width: 400px
+}
+
+figure {
+  gap: 2em;
+}
+
+figcaption {
+  max-width: 400px;
+}
+
+footer {
+  text-align: left;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .large figure img {
+    width: 1000px
+  }
+}
